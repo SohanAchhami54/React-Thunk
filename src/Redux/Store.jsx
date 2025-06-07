@@ -39,7 +39,7 @@
 
 // export default TaskReducer;
 import {createStore,applyMiddleware} from "redux";
-import thunk from 'redux-thunk';
+import {thunk} from 'redux-thunk';
 import { composeWithDevTools } from '@redux-devtools/extension';
 export const ADD_TASK="task/add";
  export const DELETE_TASK="task/delete";
